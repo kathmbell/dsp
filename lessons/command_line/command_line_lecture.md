@@ -196,6 +196,7 @@ ls -lh
 ```
 
 > What changed?
+>It changed bytes to KB
 
 If instead copying we just want to change the name of a file, we can do:
 
