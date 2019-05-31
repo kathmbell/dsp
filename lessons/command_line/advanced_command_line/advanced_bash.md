@@ -99,7 +99,11 @@ do
   curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data$i.txt
 done
 ```
+
+>>Put this code in the file, then run it -- nano / vim. Run it using bash #file name
+
 > Heads up: You may have to swap in `wget` for `curl` in your version
+
 
 The first line tells the terminal to execute this as a BASH script. This is called a 'shebang' for reasons I have no idea about. Then this code loops through 10 times (`seq 0 10` is sequence from 0 to 10), and does whatever is in the `do`-`done` loop. In this case, it runs a `curl` and pushes the data into a text file. Note the `data$i.txt`. The dollar sign is BASH for "thi  is a variable name I want you to unpack."
 
